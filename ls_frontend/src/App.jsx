@@ -16,7 +16,7 @@ function App() {
 
   const fetchRandomUsers = async () => {
     try {
-      const response = await fetch('https://random-data-api.com/api/v2/users?size=10');
+      const response = await fetch('https://random-data-api.com/api/v2/users?size=100');
       if (!response.ok) {
         throw new Error('Erro ao buscar os dados');
       }

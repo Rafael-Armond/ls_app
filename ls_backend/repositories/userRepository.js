@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as readline from 'readline';
 
 export class UserRepository {
-    #fileName = './database/user.txt';
+    #fileName = './database/user.csv';
 
     addUser(listUsers) {
         listUsers.forEach(element => {
